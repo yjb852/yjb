@@ -1,0 +1,303 @@
+header{
+	width: 1898px;height: 50px;
+	background: #333333;
+}
+*{margin: 0;padding: 0;}
+.main{
+	width: 1241px;margin: 0 auto;
+}
+header ul{
+	margin-left: 183px;
+}
+header a{
+	color: white; line-height: 50px;font-size: 14px;
+	height: 50px;
+}
+header ul li {
+	float: left;margin-right: 35px;
+}
+.head-right{
+	width: 351px;float: left;height: 50px;
+	margin-left: 1090px;
+}
+.head-right p{
+	height: 50px;
+	color: white;float: left;
+	line-height: 50px;font-size: 14px;
+	margin-right:10px ;
+}
+header ul li a:hover{
+	color: #666666;
+}
+.head-right i{
+	display: inline-block;
+	margin-left: 10px;
+	color: #585242;
+}
+.head-right p a:hover{
+	color: #666666;
+}
+.head-right span{
+	margin-right: 16px;
+	margin-left: 28px;
+}
+.a{
+	margin: 0 auto;
+	width: 1898px;
+	height: 273px;
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+	z-index:300;
+	background-color: #ffffff;
+}
+.app{
+	position: absolute;
+	margin-left: 140px;
+	display: none;
+}
+.wechat{
+	position: absolute;
+	margin-left: 220px;
+	display: none;
+}
+.img1{
+	margin-top: 77px;
+	margin-left: 900px;
+	position: absolute;
+}
+.home ul{
+	margin-top: 230px;
+	margin-left: 225px;
+	float: left;
+}
+.home ul li{
+	float: left;
+	margin-right: 88px;
+}
+.home ul li a{
+	display: inline-block;
+	font-size: 24px;font-weight: bolder;
+}
+/* .home ul li:hover{
+	transition: all 0.5s;
+	transform: translateY(50px);
+} */
+.adv{
+	width: 268px;
+	height: 238px;
+	float: right;
+	margin-top: 0px;
+	margin-left: 1500px;
+	border: 1px solid #eeeeee;
+    display: none;
+    z-index: 200;
+    position: absolute;
+    background-color: #ffffff;
+}
+.adv ul{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.adv ul li{
+	border-bottom: 1px solid #eeeeee;
+}
+.adv ul li a{
+	font-size: 13px;
+	line-height: 48px;
+}
+.adv ul li a:hover{
+	color: red;
+}
+nav{
+    height: 85px;
+    width: 1920px;
+    border-bottom: 1px solid #dcdbde;
+}
+.img img{
+    height: 40px;
+    display: block;
+    margin-top: 23px;
+    margin-left: 341px;
+    float: left;
+}
+.img p{
+    width: 300px;
+    height: 53px;
+    font-size: 22px;
+    color: #737373;
+    line-height: 53px;
+    margin-top: 16px;
+    margin-left: 38px;
+    padding-left: 38px;
+    border-left: 1px solid #e6e6e6;
+    float: left;
+}
+.main{
+    height: 691px;
+    width: 1920px;
+    position: relative;
+}
+.main form{
+    width: 472px;
+    height: 663px;
+    background-color: #ffffff;
+    /* z-index: 200; */
+    position: absolute;
+    top: 15px;
+    margin-left: 1104px;
+}
+.main form ul{
+    width: 435px;
+    height: 50px;
+    border-bottom: 1px solid #f3f3f3;
+    margin-left: 19px;
+    margin-top: 30px;
+    /* margin-bottom: 38px; */
+}
+.main form ul li{
+    text-align: center;
+    float: left;
+    height: 50px;
+    width: 154px;
+    background-color: #f3f3f3;
+}
+.main form ul li a{
+    text-align: center;
+    line-height: 50px;
+}
+.main form ul li:nth-child(1){
+    margin-left: 66px;
+    margin-right: 6px;
+    color: black;
+}
+.main form ul li:nth-child(2){
+    background-color: #333333;
+}
+.main form ul li:nth-child(2) a{
+    color:#ffffff;
+}
+.img2{
+    top: 0;
+    position: absolute;
+    height: 691px;
+    z-index: -1;
+}
+.user{
+    width: 389px;
+    height: 45px;
+    border: 1px solid #e3e2e2;
+    margin-top: 38px;
+    margin-left: 41px;
+}
+.user span{
+    display: inline-block;
+    width: 95px;
+    height: 45px;
+    font-size: 14px;
+    color: #333333;
+    margin-left:11px; 
+    line-height: 45px;
+}
+.user input{
+    width:275px;
+    height: 44px;
+    border: none;
+    color: #767676;
+    font-size: 14px;
+}
+.yz{
+    width: 391px;
+    height: 47px;
+    margin-left: 41px;
+    margin-top: 38px;
+}
+.yzm{
+    width: 248px;
+    height: 45px;
+    border: 1px solid #e3e2e2;
+    margin-right: 10px;
+    float: left;
+}
+.yzm span{
+    display: inline-block;
+    width: 95px;
+    height: 45px;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 11px; 
+    line-height: 45px;
+    float: left;
+}
+.yzm input{
+    width:142px;
+    height: 42px;
+    border: none;
+    color: #767676;
+    font-size: 14px;
+    float: left;
+}
+.php{
+    height: 45px;
+    width: 130px;
+    float: left;
+}
+.inf{
+    width: 292px;
+    height: 45px;
+    border: 1px solid #e3e2e2;
+    float: left;
+}
+.inf span{
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 11px;
+    line-height: 45px;
+    float: left;
+}
+.inf input{
+    width:160px;
+    height: 42px;
+    border: none;
+    color: #767676;
+    font-size: 14px;
+    float: left;
+}
+.yz p{
+    width: 91px;
+    height: 45px; 
+    margin-left: 6px;
+    float: left;
+    background-color: #323232;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 45px;
+}
+.check p{
+    margin-top: 39px;
+    font-size: 14px;
+}
+.sub{
+    width:390px ;
+    height: 50px;
+    background-color: #000000;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 47px;
+    margin-top: 11px;
+}
+footer{
+    height: 110px;
+}
+footer p{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p a{
+    color:#aaaaaa;
+}

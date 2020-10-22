@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/iconfont2.css">
+</head>
+<body>
+    <header>		
+        <ul>
+            <li id="atten"><a href="#">关注</a></li>
+            <li id="dload"><a href="#">下载App</a></li>
+        </ul>
+        <div class="head-right">
+            <p><a href="login.html">登录</a><i>/</i></p><p><a href="register.html">注册</a></p><p><a href="#"><span class="iconfont">&#xe608;</span>收藏</a></p><p><a href="#"><span class="iconfont">&#xe61e;</span>购物袋</a></p><p id="ads"><a href="#">公告</a></p>
+        </div>
+    </header>
+    <nav>
+        <img src="../image/app.jpg" alt="" class="app">
+        <img src="../image/weChat.jpg" alt="" class="wechat">
+        <div class="img">
+            <img src="../image/signin-register-logo(2).png">
+            <p>用户登录</p>
+        </div>
+        <div class="adv">
+            <ul>
+                <li><a href="#">近期物流情况安排通知</a></li>
+                <li><a href="#">优购客服电话变更</a></li>
+                <li><a href="#">关闭分享购频道</a></li>
+                <li><a href="#">提醒会员谨防诈骗电话</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <div class="main">
+        <img src="../image/ba839750211e4c6485fe16dea496b709.jpg" alt="" class="img2">
+        <form action="../php/login.php" method="GET">
+            <ul>
+                <li><a href="#">账号密码登录</a></li>
+                <li><a href="#">手机快捷登录</a></li>
+            </ul>
+            <div class="text"> 
+                <input type="text" value="" placeholder="手机号/会员名称/邮箱"  name="username" id="username">
+                <input type="text" value="" placeholder="请输入密码"  name="password" id="password"></br>
+                <a href="#">忘记密码？</a>
+                <input type="submit" value="点击登录" class="sub" id="login_sub">
+            </div>  
+            <div class="friend">
+                <h6>使用合作网站账号登录优购:</h6>
+                <div class="qq">
+                    <span class="iconfont2">&#xe61a;</span> <i>丨</i><span class="iconfont2">&#xe607;</span>  <i>丨</i><span class="iconfont2">&#xe636;</span>  <i>丨</i><span class="iconfont2">&#xe6a3;</span> <i>丨</i> <span class="iconfont2">&#xe65d;</span>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright © 2011-2014 Yougou Technology Co., Ltd. <a href="#">粤ICP备09070608号-4</a> 增值电信业务经营许可证：<a href="#">粤 B2-20090203</a></p>
+    </footer>
+    <script src="../js/jquery.min.js"></script>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
